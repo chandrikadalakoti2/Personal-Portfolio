@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+    height:auto;
+    background-color:brown;
+    padding:15px;
+    position: fixed;
+    top:0;
+}
+
+nav>ul>li{
+    display:inline;
+    margin-right: 15px;
+    font-size: 23px;
+}
+
+li a{color:cornsilk;text-decoration: none;}
+
+#welcome-section{
+    background-color: rgb(36, 30, 30);
+    margin-top: 3%;
+    height:100vh;
+}
+
+#welcome-section h1,#profilelink h1,#projects h1{
+    color:cornsilk;
+    text-align: center;
+    padding:18% 18% 0 18%;
+    font-size: 60px;
+}
+
+#projects h1
+{
+    font-size: 45px;
+    padding:10% 10% 0 10%;
+    margin-bottom: 100px;
+}
+
+#welcome-section h4,#profilelink h3{
+    color:brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: italic;
+    padding:10px;
+    font-size: 30px;
+}
+
+#profilelink h3{margin-bottom: 60px;}
+
+#projects{
+    background-color: rgb(56, 56, 138);
+    height:120vh;
+}
+
+#profilelink{
+    background-color: rgb(36, 30, 30);
+    height:100vh; 
+  
+}
+
+#profilelink ul li{list-style-type: none;display: inline;margin-left: 180px;}
+
+.project-tile a:link,.project-tile a:visited{
+    margin:20px;
+    font-size: 20px;
+    transition: font-size 1s;
+    text-decoration: none;
+    color:whitesmoke;
+    padding:10px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(207, 187, 149);
+    height:20vh;
+    position:relative;
+    bottom: 0;
+}
+
+footer h5{
+    text-align: center;
+    padding:5%;
+    font-size: 20px;
+}
+
+.project-tile a:hover{
+    margin:10px;
+    font-size: 40px;
+    text-decoration: none;
+    color:whitesmoke;
+    padding:10px;
+    text-align: center;
+}
+
+a ion-icon{
+    font-size: 20px;
+    margin:0 5px;
+}
+
+#profile-link p{
+    display:inline;
+    font-size: 20px;
+}
+
+@media screen and (min-width:800px)
+{
+    body{height:100vh;}
+}
+
