@@ -112,6 +112,6 @@ a ion-icon{
 
 @media screen and (max-width:800px)
 {
-    #welcome-section,#projects,#profile-links{height:150px;}
+    #welcome-section,#projects,#profile-links{height:100px;}
 }
 
