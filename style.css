@@ -110,8 +110,8 @@ a ion-icon{
     font-size: 20px;
 }
 
-@media screen and (min-width:800px)
+@media screen and (max-width:800px)
 {
-    body{height:100vh;}
+    #welcome-section,#projects,#profile-links{height:150px;}
 }
 
